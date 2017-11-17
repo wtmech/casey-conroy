@@ -24,7 +24,9 @@ class Work extends Component {
           <MusicCard 
             type="Single" 
             name="Gotta Give" 
-            img="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/ggc1.jpg?alt=media&token=f271ef00-0b9f-4886-a0bd-e427933603b9" 
+            img="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/ggc1.jpg?alt=media&token=f271ef00-0b9f-4886-a0bd-e427933603b9"
+            spotify="https://open.spotify.com/artist/7elB9Pjvsisg4hKILUjaUr"
+            apple="https://itunes.apple.com/us/artist/casey-conroy/id691269111" 
           />
         </div>
         
