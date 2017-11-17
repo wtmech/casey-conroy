@@ -237,7 +237,6 @@ body input:checked ~ nav > ul > li {
 .footer {
   display: flex;
   justify-content: center;
-  min-height: 30px;
 }
 
 .social-nav {
@@ -287,6 +286,7 @@ body input:checked ~ nav > ul > li {
 }
 
 /*WORK!!!!*/
+
 
 .work-cards {
   padding: 3rem 0 3rem 0;
@@ -705,8 +705,6 @@ ul {
     flex: 2;
     display: block;
     margin: 0;
-    width: 40%;
-    height: 40%;
   }
 
   .connect-content {
@@ -813,6 +811,12 @@ ul {
 
   .input-wrapper {
     margin: 9rem 0 0 15rem;
+    flex:1
+  }
+
+  .connect-img-contain {
+    width: 70%;
+    height: auto;
   }
 
   .iam-contain {
@@ -830,6 +834,10 @@ ul {
   }
 
   .work {
+    height: 100%;
+  }
+
+  .work-cards {
     height: 100%;
   }
 
