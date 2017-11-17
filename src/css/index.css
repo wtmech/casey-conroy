@@ -311,13 +311,14 @@ body input:checked ~ nav > ul > li {
 }
 
 .song-title {
+  margin-top: 1.5rem;
   font-size: 1.4rem;
 }
 
 .listen-contain {
   display: flex;
-  align-items: flex-end;
   height: 85px;
+  margin-top: 1rem;
 
 }
 
@@ -707,6 +708,15 @@ ul {
     margin: 0;
   }
 
+  .connect-img-contain {
+    width: 60%;
+    height: auto;
+  }
+
+  .connect-img {
+    width: 100%;
+  }
+
   .connect-content {
     display: flex;
     margin: 0 auto 5rem;
@@ -741,6 +751,15 @@ ul {
 
   .connect-content {
     margin: 0 auto 5rem;
+  }
+
+  .connect-img-contain {
+    width: 60%;
+    height: auto;
+  }
+
+  .connect-img {
+    width: 100%;
   }
 
   .input-wrapper {
