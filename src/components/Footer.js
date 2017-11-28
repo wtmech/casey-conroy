@@ -24,6 +24,9 @@ class Footer extends Component {
             <li><a href="mailto:info@iamcaseyconroy.com" alt="email"><FontAwesome name='envelope' /></a></li>            
           </ul>
         </div>
+        <div className="copy">
+        <div className="cc"> 2017 © CC Music LLC, Created by: <a href="https://www.linkedin.com/in/williammech/" target="_blank" alt="Creator">billy</a></div>
+      </div>
       </div>
     );
   }

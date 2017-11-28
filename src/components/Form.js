@@ -24,7 +24,7 @@ class Form extends Component {
     
     return (
       <div className="input-wrapper">
-        <form action="https://formspree.io/wmech16@gmail.com" method="POST">
+        <form action="https://formspree.io/info@iamcaseyconroy.com" method="POST">
         <input className="name form" type="text" name="name" placeholder="name" /><br/>
         <input className="email form" type="text" name="email" placeholder="email" /><br/>
         <textarea className="message form" placeholder="message" name="message" ></textarea>

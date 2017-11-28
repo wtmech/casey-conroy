@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <div>
         <div className="header">
-        <img src="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/logo.png?alt=media&token=2a06d5ed-f588-4995-a007-f42bbc48a9c1" className="app-logo" alt="logo" />
+        <NavLink to="/"><img src="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/logo.png?alt=media&token=2a06d5ed-f588-4995-a007-f42bbc48a9c1" className="app-logo" alt="logo" /></NavLink>
         <input id="burger" type="checkbox" className="burger"/>
         
         <label htmlFor="burger">
