@@ -25,7 +25,7 @@ class Footer extends Component {
           </ul>
         </div>
         <div className="copy">
-        <div className="cc"> 2017 © CC Music LLC, Created by: <a href="https://www.linkedin.com/in/williammech/" target="_blank" alt="Creator">billy</a></div>
+        <div className="cc"> 2017 © CC Music LLC</div>
       </div>
       </div>
     );

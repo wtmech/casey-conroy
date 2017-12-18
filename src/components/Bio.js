@@ -23,7 +23,7 @@ class Bio extends Component {
             
             <p><span className="first-letter">W</span>hen I’m not creating or writing or just listening I love to enjoy the little things in life. Sometimes I go a whole week excited because I know Thursday night I’m going to a cute, little restaurant. I love being with people I care about, I love finding the good in everything, and I never want to stop exploring all the diversity and uniqueness the world has to offer. It doesn’t take very much to make me happy. Just promise me there will be ice cream, some good music and my favorite people and I’ll be good.</p>
             </div>
-            <img alt="Casey" className="signature" src="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/caseysig.png?alt=media&token=e2b096bc-c752-445f-87b2-433f5363a8e6" />
+            <img alt="Casey" className="signature" src="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/caseysig.png?alt=media&token=d6270f7c-1fb2-464e-ac7b-c14c8d929660" />
           </div>
         </div>
         <Footer />
