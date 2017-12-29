@@ -20,7 +20,7 @@ html, body {
 }
 
 body { 
-  background: white;
+  background: #cdd7dd;
   box-sizing: border-box;
   font-size: 16px;
   color: #373737;
@@ -167,9 +167,9 @@ body input:checked ~ nav > ul > li {
 .header-nav { display: none; }
 
 .app-logo {
-  width: 11rem;
+  width: 15rem;
   height: auto;
-  padding: 12px 12px 9px 12px;
+  padding: 25px 9px 25px 15px;
 }
 
 
@@ -341,8 +341,107 @@ ul {
   padding-left: 25px;
 }
 
-.connect {
+/*INDIVIDUAL SONG*/
+.first-song {
+  width: 100%;
+  margin-top: 10%;
+}
 
+.first-song-contain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-title {
+  font-size: 2rem;
+}
+
+.album-cover {
+  width: 22rem;
+  height: 22rem;
+}
+
+table {
+  background: #f7f7f7;
+  margin-bottom: 10%;
+}
+
+tr {
+  color: #353535;
+  height: 70px;
+}
+
+td {
+  border-bottom: 1px solid #e3e3e3;
+  
+}
+
+tr:hover {
+  background: #353535;
+  cursor: pointer;
+  color: white;
+}
+
+/*
+.Collapsible__trigger {
+  font-size: 2rem;
+}
+
+.Collapsible__trigger:hover {
+  cursor: pointer;
+}
+
+.Collapsible__contentInner {
+  width: 96%;
+  margin: 0 auto;
+  background: transparent;
+}
+
+.Collapsible__contentOuter {
+  background: transparent;
+} */
+
+.top-line {
+  width: 70%;
+  border-top: 1px  solid #50373737;
+  margin: 0 auto;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}
+
+
+
+.Collapsible__contentInner {
+  padding: 10px;
+  border-top: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: .9rem;
+  line-height: 20px;
+  color: #373737;
+  text-align: center;
+  
+}
+
+.Collapsible__trigger {
+  /* border-top: 1px #50373737 solid; */
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  padding: 19px;
+  color: #373737;
+  font-size: 1.5rem;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.connect {
+  height: 100vh;
   background: white;
 
 }
@@ -401,7 +500,8 @@ ul {
   font-family: Monsterrat;
   font-size: 1.3rem;
   color: white;
-  border-radius: 1px; 
+  border-radius: 1px;
+  border-bottom: 500px; 
 }
 
 .swiper-pagination-bullet-active {
@@ -432,6 +532,13 @@ ul {
 @media all and (min-width: 632px) {
   .work-cards {
     padding: 11rem 0;
+  }
+}
+
+@media all and (min-width: 640px) {
+  .album-cover {
+    width: 25rem;
+    height: 25rem;
   }
 }
 
@@ -480,6 +587,7 @@ ul {
   .signature {
     width: 30%;
     margin-right: 50px;
+    margin-bottom: 83px;
   }
 
   .swiper-container {
@@ -613,6 +721,26 @@ ul {
   .listen-back {
     top: 13.5rem;
   }
+
+  .first-song-contain {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .left-work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-work {
+    height: 100%;
+  }
+
+  .album-cover {
+    width: 16rem;
+    height: 16rem;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -706,7 +834,7 @@ ul {
 
   .connect {
     background: #cdd7dd;
-    height: 100%;
+    height: 100vh;
   }
 
   .input-wrapper {
@@ -720,6 +848,8 @@ ul {
     flex: 2;
     display: block;
     margin: 0;
+    max-width: 1200px;
+    margin-bottom: 156px;
   }
 
   .connect-img-contain {
@@ -757,6 +887,7 @@ ul {
 
   .work-cards {
     padding: 10.5rem 0 10.5rem 0;
+    margin-bottom: 42px;
     }
 
   .swiper-button-prev {
@@ -818,9 +949,9 @@ ul {
   }
 
   .app-logo {
-    width: 15rem;
+    width: 19rem;
     height: auto;
-    padding: 12px 12px 9px 20px;
+    padding: 25px 9px 25px 15px;
   }
 
   .header-nav {
@@ -857,8 +988,8 @@ ul {
     margin: 0 auto;
   }
   .card-contain {
-    width: 500px;
-    height: 650px;
+    width: 400px;
+    height: 550px;
   }
 
   .flip-container, .front, .back {
@@ -882,6 +1013,10 @@ ul {
   .back-type {
     top: 18rem;
     font-size: 1.7rem
+  }
+
+  .back-link {
+    font-size: 2rem;
   }
 
   .listen {

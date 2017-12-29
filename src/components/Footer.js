@@ -11,7 +11,7 @@ class Footer extends Component {
           <div className="footer-nav">
             <NavLink to="/" exact={true}>Home</NavLink>          
             <NavLink to="/i-am">I am...</NavLink>
-            <NavLink to="/music">Sounds</NavLink>
+            <NavLink to="/music">Music</NavLink>
             <NavLink to="/connect">Connect</NavLink>
           </div>
           <ul className="social-nav">

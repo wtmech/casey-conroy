@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 // import FontAwesome from 'react-fontawesome';
 // import { Grid, Row, Col, Modal, Button } from 'react-bootstrap';
 import '../css/index.css';
-
-
+import {NavLink} from 'react-router-dom';
 
 class MusicCard extends Component {
 
@@ -45,19 +44,30 @@ class MusicCard extends Component {
       listen = <span className="listen">Listen:</span>;
     }
 
+    let frontLink;
+    let backLink;
+
+    if (this.props.name === 'Something in Mind') {
+      frontLink = <NavLink to="/Something-in-Mind"><span className="song-title">{this.props.name}</span></NavLink>
+      backLink = <div className="back-title">{this.props.name}</div>
+    } else if (this.props.name === 'Gotta Give') {
+      frontLink = <NavLink to="/Gotta-Give"><span className="song-title">{this.props.name}</span></NavLink>
+      backLink = <div className="back-title">{this.props.name}</div>
+    }
+
     return (
       <div>
         <div className="card-contain" style={style.cardStyle}>
           <div className="top-card" style={style.topCard}></div>
           <div className="bottom-card">
             <div className="bottom-content" style={style.bottomContent}>
-              <span className="song-title">{this.props.name}</span>
+            {frontLink}
               <span className="song-type">{this.props.type}</span>
               <div className="listen-contain">
                 {listen}
                 <ul>
                   {this.props.spotify ? <li className="spotify-li"><a href={this.props.spotify} target="_blank" alt="Spotify">Spotify</a></li> : null}
-                  {this.props.apple ? <li><a href={this.props.apple} target="_blank" alt="Apple Music">Apple Music</a></li> : null}
+                  {this.props.apple ? <li className="spotify-li"><a href={this.props.apple} target="_blank" alt="Apple Music">Apple Music</a></li> : null}
                 </ul>
               </div>
             </div>
@@ -71,7 +81,7 @@ class MusicCard extends Component {
           </div>
           <div className="back">
             <div className="back-logo"></div>
-            <div className="back-title">{this.props.name}</div>
+            {backLink}
             <span className="back-type">{this.props.type}</span>
             <div className="listen-back">
               {listen}
