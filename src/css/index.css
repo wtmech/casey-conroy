@@ -184,7 +184,7 @@ body input:checked ~ nav > ul > li {
 }
 
 .img-contain {
-  background: url('https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/casey-backchair-min.jpg?alt=media&token=7bf820fe-938c-42b3-875a-46424e3ea270') no-repeat;
+  background: url('https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/casey-backchair.jpeg?alt=media&token=d3dcfceb-381f-4a21-b558-1088ec54e0a4') no-repeat;
   width: 100vw;
   height: 100vh;
   background-position: 50% 60%;
@@ -667,7 +667,7 @@ tr:hover {
     font-weight: bold;
     color: #fff;
     position: absolute;
-    top: 10rem;
+    top: 8rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -710,7 +710,7 @@ tr:hover {
   }
 
   .back-title {
-    top: 7rem;
+    top: 4rem;
     font-size: 1.5rem;
   }
 
@@ -918,7 +918,7 @@ tr:hover {
   }
 
   .back-title {
-    top: 10rem;
+    top: 8rem;
     font-size: 1.2rem;
   }
 
@@ -1006,7 +1006,7 @@ tr:hover {
   }
   
   .back-title {
-    top: 15rem;
+    top: 10rem;
     font-size: 3rem;
   }
 

@@ -91,7 +91,7 @@ class MusicInfo extends Component {
       albumCover: {
         width: '22rem',
         height: '22rem',
-        background: 'url("https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/simc.jpg?alt=media&token=257df260-b280-494a-a178-a33887fc5119") no-repeat',
+        background: 'url("https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/SIMCOVER.jpg?alt=media&token=3a25f5f5-f52a-46d7-a994-1e3edd328704") no-repeat',
         backgroundPosition: '50% 60%',
         backgroundSize: 'cover'
       }
