@@ -1,10 +1,12 @@
 @font-face {
   font-family: 'Northwell';
+  font-display: auto;
   src: url('../images/Northwell.otf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: 'Monsterrat';
+  font-display: auto;
   src: url('../images/Montserrat-Regular.otf'); /* IE9 Compat Modes */
 }
 
@@ -184,7 +186,7 @@ body input:checked ~ nav > ul > li {
 }
 
 .img-contain {
-  background: url('https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/casey-backchair.jpeg?alt=media&token=d3dcfceb-381f-4a21-b558-1088ec54e0a4') no-repeat;
+  background: url('https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/casey-backchair-min890.jpg?alt=media&token=2d3a8927-20ec-43aa-91af-6367c4ae46d2') no-repeat;
   width: 100vw;
   height: 100vh;
   background-position: 50% 60%;
@@ -552,6 +554,14 @@ tr:hover {
     justify-content: space-around;
     box-sizing: border-box;
     padding-top: 10px;
+  }
+
+  .img-contain {
+    background: url('https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/casey-backchair-min.jpg?alt=media&token=7bf820fe-938c-42b3-875a-46424e3ea270') no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: 50% 60%;
+    background-size: cover;
   }
 
   .bio-img {

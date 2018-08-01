@@ -14,10 +14,10 @@ class Work extends Component {
         <div className="work-cards">
           <MusicCard 
             type="Single" 
-            name="Something in Mind (Mediatrix Remix)" 
-            img="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/SIMCOVER.jpg?alt=media&token=52199481-d3f6-42a9-bcf2-557ec8a7c790" 
-            spotify="https://open.spotify.com/track/4vvNAJc71yZHylwZAqqt9I?si=nBlArG7zRFKFw3cmhBDbTg"
-            apple="https://itunes.apple.com/us/album/something-in-mind-mediatrix-remix/1338614743?i=1338614750 "
+            name="Gotta Give" 
+            img="https://firebasestorage.googleapis.com/v0/b/casey-conroy.appspot.com/o/gottagive.jpg?alt=media&token=32bba95b-8bf5-49c6-ba2d-5856dab0ff40" 
+            spotify="https://open.spotify.com/track/5FkXb7nnP9VCALmkQP2kkF?si=fiKKm3ZETtGymXEoIJV2bg"
+            apple="https://itunes.apple.com/us/album/gotta-give-single/1390330065"
           />
           <MusicCard 
             type="Single" 

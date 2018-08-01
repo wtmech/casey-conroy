@@ -25,7 +25,7 @@ class Footer extends Component {
           </ul>
         </div>
         <div className="copy">
-        <div className="cc"> 2017 © CC Music LLC</div>
+        <div className="cc"> {new Date().getFullYear()} © CC Music LLC</div>
       </div>
       </div>
     );
