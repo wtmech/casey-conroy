@@ -4,9 +4,6 @@ import Form from './Form';
 import Footer from './Footer';
 
 import '../css/index.css';
-// import { NavLink } from 'react-router-dom';
-
-
 
 class Connect extends Component {
   render() {
