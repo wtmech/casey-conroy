@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Northwell';
   font-display: auto;
-  src: url('../images/Northwell.otf'); /* IE9 Compat Modes */
+  src: url('../images/Northwell.otf');
 }
 
 @font-face {
   font-family: 'Monsterrat';
   font-display: auto;
-  src: url('../images/Montserrat-Regular.otf'); /* IE9 Compat Modes */
+  src: url('../images/Montserrat-Regular.otf');
 }
 
 .swiper-button-prev, .swiper-button-next {

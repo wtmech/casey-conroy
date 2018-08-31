@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-// import FontAwesome from 'react-fontawesome';
-// import { Grid, Row, Col } from 'react-bootstrap';
+
 import Header from './Header';
 import Footer from './Footer';
 import MusicCard from './MusicCard';

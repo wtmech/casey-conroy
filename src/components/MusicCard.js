@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import FontAwesome from 'react-fontawesome';
-// import { Grid, Row, Col, Modal, Button } from 'react-bootstrap';
 import '../css/index.css';
 
 class MusicCard extends Component {
@@ -40,8 +38,6 @@ class MusicCard extends Component {
     } else {
       listen = <span className="listen">Listen:</span>;
     }
-
-    
 
     return (
       <div>
